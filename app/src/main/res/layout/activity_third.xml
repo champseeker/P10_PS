@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThirdActivity">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/addTitle"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/year"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/genre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextRated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rated"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextWatched"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/watched"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextTheatre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/addTheatre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/addDesc"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add" />
+</LinearLayout>
